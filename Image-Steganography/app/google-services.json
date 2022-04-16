@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346376965883",
+    "firebase_url": "https://girismesajlasma.firebaseio.com",
+    "project_id": "girismesajlasma",
+    "storage_bucket": "girismesajlasma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346376965883:android:2156f1dd26be88ed5daa5e",
+        "android_client_info": {
+          "package_name": "com.proje.steganography"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346376965883-hvdgok00q6cdrmf1sb2cdpaksao7u40j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proje.steganography",
+            "certificate_hash": "a9f1d7bb2e640979ed9af791014a03bb8739498c"
+          }
+        },
+        {
+          "client_id": "346376965883-lnoocv77al3schst4rp1mnkhtgd9tvj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmS2ZI-PdJvkS2d7l2Nal-p6Rb07dTjxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346376965883-lnoocv77al3schst4rp1mnkhtgd9tvj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
