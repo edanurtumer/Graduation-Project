@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/request_fragment_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/request_fragment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/request_fragment_image"
+        android:layout_toEndOf="@+id/request_fragment_image"
+        android:text="display_name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/request_fragment_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/request_fragment_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/request_fragment_image"
+        android:text="hi_there_i_am_using_lapit_chat_app" />
+
+    <Button
+        android:id="@+id/request_fragment_button"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/request_fragment_status"
+        android:layout_toEndOf="@id/request_fragment_image"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Kabul Et"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/request_fragment_button_decline"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/request_fragment_status"
+        android:layout_toEndOf="@id/request_fragment_button"
+        android:backgroundTint="@color/colorAccent"
+        android:text="REDDET"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

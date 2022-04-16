@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StegaKript</string>
+    <string name="yen_b_r_hesaba_ht_yacim_var">YENİ BİR HESABA İHTİYACIM VAR.</string>
+    <string name="k">Çıkış</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
